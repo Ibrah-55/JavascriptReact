@@ -21,12 +21,14 @@ class App extends React.Component{
         <label>Name:  
             <input type="text" ref={this.input} />  
         </label>  
+        <h1>{this.state.input}</h1> 
+
         <label>  
             CompanyName:  
             <input type="text" ref={this.input} />  
         </label>  
         <input type="submit" value="Submit" />  
-      </form>  
+      </form> 
     );
   }
 }
